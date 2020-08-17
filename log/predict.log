@@ -1,20 +1,20 @@
-2020-08-17 11:34:23,162 : INFO : utility : Finished logger configuration!
-2020-08-17 11:34:23,162 : INFO : utility : Load config from scripts/config.yml
-2020-08-17 11:34:23,164 : INFO : utility : config: {'model_path': 'model/rf_model.pkl', 'processed_test': 'data/test.csv', 'predicted_file': 'data/predict.csv', 'export_result': True}
-2020-08-17 11:34:23,164 : INFO : utility : -------------------Load the trained model-------------------
-2020-08-17 11:34:23,171 : INFO : utility : Load the test data from data/test.csv
-2020-08-17 11:34:23,175 : INFO : utility : cols: ['fixed_acidity', 'volatile_acidity', 'citric_acid', 'residual_sugar', 'chlorides', 'free_sulfur_dioxide', 'total_sulfur_dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
-2020-08-17 11:34:23,175 : INFO : utility : X: (320, 11)
-2020-08-17 11:34:23,175 : INFO : utility : y: (320,)
-2020-08-17 11:34:23,175 : INFO : utility : -------------------Predict and evaluate-------------------
-2020-08-17 11:34:23,186 : INFO : utility : Classification report: 
+2020-08-17 14:05:51,655 : INFO : utility : Finished logger configuration!
+2020-08-17 14:05:51,655 : INFO : utility : Load config from scripts/config.yml
+2020-08-17 14:05:51,657 : INFO : utility : config: {'model_path': 'model/gb_model.pkl', 'processed_test': 'data/test.csv', 'predicted_file': 'data/predict.csv', 'export_result': True}
+2020-08-17 14:05:51,658 : INFO : utility : -------------------Load the trained model-------------------
+2020-08-17 14:05:51,661 : INFO : utility : Load the test data from data/test.csv
+2020-08-17 14:05:51,665 : INFO : utility : cols: ['fixed_acidity', 'volatile_acidity', 'citric_acid', 'residual_sugar', 'chlorides', 'free_sulfur_dioxide', 'total_sulfur_dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+2020-08-17 14:05:51,665 : INFO : utility : X: (320, 11)
+2020-08-17 14:05:51,666 : INFO : utility : y: (320,)
+2020-08-17 14:05:51,666 : INFO : utility : -------------------Predict and evaluate-------------------
+2020-08-17 14:05:51,669 : INFO : utility : Classification report: 
                precision    recall  f1-score   support
 
-           0       0.92      0.97      0.94       273
-           1       0.73      0.51      0.60        47
+           0       0.91      0.96      0.93       273
+           1       0.64      0.45      0.52        47
 
-    accuracy                           0.90       320
-   macro avg       0.82      0.74      0.77       320
-weighted avg       0.89      0.90      0.89       320
+    accuracy                           0.88       320
+   macro avg       0.77      0.70      0.73       320
+weighted avg       0.87      0.88      0.87       320
 
-2020-08-17 11:34:23,189 : INFO : utility : Export prediction to : data/predict.csv
+2020-08-17 14:05:51,672 : INFO : utility : Export prediction to : data/predict.csv

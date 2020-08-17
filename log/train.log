@@ -1,13 +1,13 @@
-2020-08-17 11:34:11,823 : INFO : utility : Finished logger configuration!
-2020-08-17 11:34:11,823 : INFO : utility : Load config from scripts/config.yml
-2020-08-17 11:34:11,825 : INFO : utility : config: {'processed_train': 'data/train.csv', 'ensemble_model': 'RandomForestClassifier', 'model_config': {'n_estimators': 100, 'random_state': 42}, 'model_path': 'model/rf_model.pkl'}
-2020-08-17 11:34:11,825 : INFO : utility : -------------------Load the processed data-------------------
-2020-08-17 11:34:11,831 : INFO : utility : cols: ['fixed_acidity', 'volatile_acidity', 'citric_acid', 'residual_sugar', 'chlorides', 'free_sulfur_dioxide', 'total_sulfur_dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
-2020-08-17 11:34:11,831 : INFO : utility : X: (1279, 11)
-2020-08-17 11:34:11,832 : INFO : utility : y: (1279,)
-2020-08-17 11:34:11,832 : INFO : utility : -------------------Initiate model-------------------
-2020-08-17 11:34:11,832 : INFO : utility : Train model using RandomForestClassifier, {'n_estimators': 100, 'random_state': 42}
-2020-08-17 11:34:12,018 : INFO : utility : Train score: 1.0
-2020-08-17 11:34:12,861 : INFO : utility : CV score: 0.8991513480392157
-2020-08-17 11:34:12,861 : INFO : utility : -------------------Persist model-------------------
-2020-08-17 11:34:12,869 : INFO : utility : Persisted model to model/rf_model.pkl
+2020-08-17 14:05:41,576 : INFO : utility : Finished logger configuration!
+2020-08-17 14:05:41,577 : INFO : utility : Load config from scripts/config.yml
+2020-08-17 14:05:41,579 : INFO : utility : config: {'processed_train': 'data/train.csv', 'ensemble_model': 'GradientBoostingClassifier', 'model_config': {'n_estimators': 100, 'random_state': 42}, 'model_path': 'model/gb_model.pkl'}
+2020-08-17 14:05:41,579 : INFO : utility : -------------------Load the processed data-------------------
+2020-08-17 14:05:41,587 : INFO : utility : cols: ['fixed_acidity', 'volatile_acidity', 'citric_acid', 'residual_sugar', 'chlorides', 'free_sulfur_dioxide', 'total_sulfur_dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+2020-08-17 14:05:41,587 : INFO : utility : X: (1279, 11)
+2020-08-17 14:05:41,588 : INFO : utility : y: (1279,)
+2020-08-17 14:05:41,588 : INFO : utility : -------------------Initiate model-------------------
+2020-08-17 14:05:41,588 : INFO : utility : Train model using GradientBoostingClassifier, {'n_estimators': 100, 'random_state': 42}
+2020-08-17 14:05:41,809 : INFO : utility : Train score: 0.9601250977326036
+2020-08-17 14:05:42,744 : INFO : utility : CV score: 0.8897702205882354
+2020-08-17 14:05:42,744 : INFO : utility : -------------------Persist model-------------------
+2020-08-17 14:05:42,750 : INFO : utility : Persisted model to model/gb_model.pkl

@@ -16,7 +16,7 @@ from pickle import load
 import click
 import pandas as pd
 import sklearn
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import classification_report
 from sklearn.model_selection import cross_val_score
 
